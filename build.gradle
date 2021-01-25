@@ -45,7 +45,7 @@ minecraft {
                 property 'forge.logging.console.level', 'debug'
 
                 mods {
-                    templatemod {
+                    portalinterfaces {
                         source sourceSets.main
                     }
                 }
@@ -58,7 +58,7 @@ minecraft {
                 property 'forge.logging.console.level', 'debug'
 
                 mods {
-                    templatemod {
+                    portalinterfaces {
                         source sourceSets.main
                     }
                 }
@@ -69,13 +69,13 @@ minecraft {
             workingDirectory project.file('run')
 
             if (findProject(':Workspace') != null) {
-                ideaModule '1.16.TemplateMod.main'
+                ideaModule '1.16.PortalInterfaces.main'
             }
 
-            args '--mod', 'templatemod', '--all', '--output', file('src/main/generated/resources/'), '--existing', file('src/main/resources')
+            args '--mod', 'portalinterfaces', '--all', '--output', file('src/main/generated/resources/'), '--existing', file('src/main/resources')
 
             mods {
-                templatemod {
+                portalinterfaces {
                     source sourceSets.main
                 }
             }

@@ -1,26 +1,26 @@
 modLoader="javafml"
 loaderVersion="[${loader_version},)"
 license="GNU General Public License v3.0"
-issueTrackerURL="https://github.com/Yunus1903/TemplateMod/issues"
+issueTrackerURL="https://github.com/Yunus1903/PortalInterfaces/issues"
 
 [[mods]]
-    modId="templatemod"
+    modId="portalinterfaces"
     version="${version}"
-    displayName="TemplateMod"
+    displayName="Portal Interfaces"
     displayURL=""
     logoFile=""
 
-    authors="Yunus1903"
+    authors="Yunus1903 & TheKayneGame"
     credits=""
-    description=""
+    description="Adding item, fluid & power interfaces to nether portals"
 
-[[dependencies.templatemod]]
+[[dependencies.portalinterfaces]]
     modId="minecraft"
     mandatory=true
     versionRange="[${minecraft_version}]"
     ordering="NONE"
     side="BOTH"
-[[dependencies.templatemod]]
+[[dependencies.portalinterfaces]]
     modId="forge"
     mandatory=true
     versionRange="[${forge_version},)"
